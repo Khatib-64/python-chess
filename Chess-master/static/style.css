@@ -1,0 +1,80 @@
+*body {
+    padding-top: 70px;
+    align-items: center;
+}
+
+
+#board {
+    padding: 20px 0;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+
+
+#logo {
+    position: relative;
+    left: 10%;
+}
+
+#secondWindow {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#moveTable {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+    display: none;
+}
+
+#controls {
+    position: absolute;
+    bottom: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.undo-btn {
+    background-color: #404040;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+}
+
+.new-game-btn {
+    background-color: #d0cece;
+    color: #404040;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+}
+
+.combo-box {
+    background-color: #404040;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+}
+
+span {
+    display: none;
+
+}
